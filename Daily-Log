@@ -1,4 +1,5 @@
 October 27 2026
 Finished the schematic for the 7.4V to 5V buck regulator.
 I added a UVLO to prevent battery degredation and oscillation. Von was set as 6.85V and Voff was set as 6.10V.
-Added test points near the input voltage to measure how much was coming from the battery and on the other half to measure if the buck regulator was outputting 5V.
+Added test points near the input voltage to measure how much was coming from the battery 
+  and on the other half to measure if the buck regulator was outputting 5V.
