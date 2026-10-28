@@ -1,8 +1,8 @@
 October 27 2026
 Finished the schematic for the 7.4V to 5V buck regulator and 5V to 3.3V LDO.
-I added a UVLO to prevent battery degredation and oscillation. Von was set as 6.85V and Voff was set as 6.10V.
+Added a UVLO to prevent battery degredation and oscillation. Von was set as 6.85V and Voff was set as 6.10V.
 Added test points near the input voltage to measure how much was coming from the battery 
   and on the other half to measure if the buck regulator was outputting 5V.
-I've been thinking about how the battery is going to connect to the board. It can either be soldered or I can solder the JST-SYP pin male 
-pin the board. For now I think soldering the JST-SYP male pin will be easier since it allows me to detach the battery, but it might need to
-be a design decision for me to decide later after I have an idea of the physical design of the drone.
+Thinking about how the battery is going to connect to the board. It can either be soldered or solder the JST-SYP male 
+  pin to the board. For now I think soldering the JST-SYP male pin will be easier since it allows me to detach the battery, but it might
+  be a design decision for me to decide later after I have an idea of the physical design of the drone.
