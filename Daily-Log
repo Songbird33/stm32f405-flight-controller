@@ -6,3 +6,6 @@ Added test points near the input voltage to measure how much was coming from the
 Thinking about how the battery is going to connect to the board. It can either be soldered or solder the JST-SYP male 
   pin to the board. For now I think soldering the JST-SYP male pin will be easier since it allows me to detach the battery, but it might
   be a design decision for me to decide later after I have an idea of the physical design of the drone.
+At the end of the day I added the decoupling capacitors to the VDD pins on the STM32, with a low pass filter and decoupling capacitor for
+  VDDA. However, I still don't really understand what decoupling capacitors and low pass filters work. Why they're required, when we know
+  they should be used and which low pass filters fit each occasion. I hope to mostly study the theory behind those sometime later.
