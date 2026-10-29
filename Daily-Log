@@ -9,3 +9,14 @@ Thinking about how the battery is going to connect to the board. It can either b
 At the end of the day I added the decoupling capacitors to the VDD pins on the STM32, with a low pass filter and decoupling capacitor for
   VDDA. However, I still don't really understand what decoupling capacitors and low pass filters work. Why they're required, when we know
   they should be used and which low pass filters fit each occasion. I hope to mostly study the theory behind those sometime later.
+
+October 28 2026
+For the most part worked on the schematic for STM32 and learned a bit about low pass filters, decoupling capacitors and when they're needed.
+  Decided that instead of having an LC filter for my low pass filter from 3.3V to VDDA I added a ferrite bead. Additionally, I added a 
+  decoupling capacitor for my VBAT which I didn't realize I had to. 
+Adding decoupling capacitors for both VCAP1 and VCAP2, finished the schematic for the BOOT0 pin. 
+I also finished the schematic for the HSE crystal oscillator. I wan't to study these a bit more in the future since I feel I don't have that
+  good of an idea of how they work, but currently I view it as sort of a time keeper for the MCU.
+In terms of theory I learned why a low pass filter is needed between the buck regulator, LDO and MCU. Based on my understanding it's that the 
+  buck regulator has a ton of switching, causing spikes in frequency. And the PSRR on the LDO struggles with high frequencies. I still don't
+  have a solid idea of how all that works, so I want to study it in the future with how all the components work.
