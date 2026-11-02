@@ -20,3 +20,17 @@ I also finished the schematic for the HSE crystal oscillator. I wan't to study t
 In terms of theory I learned why a low pass filter is needed between the buck regulator, LDO and MCU. Based on my understanding it's that the 
   buck regulator has a ton of switching, causing spikes in frequency. And the PSRR on the LDO struggles with high frequencies. I still don't
   have a solid idea of how all that works, so I want to study it in the future with how all the components work.
+
+November 2 2026
+Alot happened today. Somegood and some bad, mostly good though since I figured out alot of things and have a better idea on how to continue. 
+        I added the reset circuit and boot for my STM32F405. I think the schematic is mostly done for the microcontroller itself, I just need
+        to figure out more about how I'm going to add the USB, if I even need it and how the power on, off and flashing the program on it will
+        work.
+Reserached more indepth about how I'm going to use the PCB assembly service since I don't plan to solder the parts myself because some of the 
+        chips are weird in how they're soldered. I ended up having to change my barometer and IMU for the flight controller since betaflight 
+        doesn't support it. Additionally, betaflight recommends a magneometer so I plan to add that. I learned the IMU will be connected via SPI,
+        with the magnetometer and barometer with I2C as recommended by betaflight. Luckily all the components recommended are available on the
+        pcb assembly site so thats nice.
+Objective for next time is just to look through the data sheets of the imu, magnetometer and barometer I'm using so I can make the schematic
+        for them. I don't think it will take that long. I also want to learn more theory, which I will probably do sometime after the schematic
+        for the flight controller is finished. Overall a good day, got a lot done after a few days break.
