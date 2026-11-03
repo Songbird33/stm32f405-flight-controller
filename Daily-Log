@@ -34,3 +34,7 @@ Reserached more indepth about how I'm going to use the PCB assembly service sinc
 Objective for next time is just to look through the data sheets of the imu, magnetometer and barometer I'm using so I can make the schematic
         for them. I don't think it will take that long. I also want to learn more theory, which I will probably do sometime after the schematic
         for the flight controller is finished. Overall a good day, got a lot done after a few days break.
+Finished going through the data sheet for the components above and the schematic for them are finished. IMU is connected via SPI per recommendation
+        by betaflight. Barometer and Magnetometer are connect via I2C per recommendation by betaflight.
+As of now I think I'm in a good place, but there are some smaller things I need to add to the schematic like USB, LEDs, charging and figuring out
+  footprints which I will likely have to go through datasheet again.
