@@ -38,3 +38,8 @@ Finished going through the data sheet for the components above and the schematic
         by betaflight. Barometer and Magnetometer are connect via I2C per recommendation by betaflight.
 As of now I think I'm in a good place, but there are some smaller things I need to add to the schematic like USB, LEDs, charging and figuring out
   footprints which I will likely have to go through datasheet again.
+
+November 17 2026
+Coming back from a long break because I was busy with some stuff and prioritsed other club projects etc.....But nice to start working on it
+  after a while. Even if I didn't work on it I was thinking about what I would start when I continued. I decided to swtich the battery from a JST-
+  PSY pin to a XT30 pin (which appears to be standard for a 2S drone). This mean I also had to change the battery. 
